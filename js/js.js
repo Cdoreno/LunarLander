@@ -93,6 +93,7 @@ window.onload = function () {
 		volver();
 		actualizarFuel();
 		document.getElementById("fuel").innerHTML = fuel.toFixed(2);
+		document.getElementById("feliz").style.display = "none";
 		y = 10;
 		v = 0;
 		fuel = 100;
@@ -219,6 +220,7 @@ function modo1() {
 	} else if (altur <= 0 && veloc <= 5) {
 		document.getElementById('naveimg').src = "img/gan.gif";
 		document.getElementById("altura").innerHTML = cont.toFixed(2);
+		document.getElementById("feliz").style.display = "block";
 		partida = 0;
 	}
 	velocModo1();
