@@ -220,6 +220,7 @@ body,html{
     }
 
 #instruc2{
+    font-size:150%;
     color:blue;
     display: table-cell;
 	vertical-align: middle;
@@ -230,6 +231,7 @@ body,html{
     }
 
 #gaso2{
+    font-size:150%;
     color:blue;
     display: table-cell;
 	vertical-align: middle;
@@ -240,6 +242,7 @@ body,html{
     }
 
 #velo2{
+    font-size:150%;
     color:blue;
     display: table-cell;
 	vertical-align: middle;
