@@ -1,22 +1,11 @@
-# lunar-landing-javascript
-Versión esqueleto del juego Lunar Landing que incluye:
+Tareas desarrolladas:
 
-* Html con los elementos básicos del juego
-* Css: d.css y m.css dos versiones que cargan mediante media query dependiendo del tamaño de pantalla (pruébalo!)
-* Js: con el javascript necesario para dejar caer la nave y parar cuando llega a un límite. Actualiza la velocidad y la altura en %/s y % (1% de pantalla = 1 metro).
-* No dispone de imágenes.
+He realizado la implementación de las imagenes del fondo, menu, superficie lunar, tierra y todo lo referente a los menus de configuración e información usando imagenes y su modificación en CSS. También he realizado unos botones interactivos que cambien al pasar el ratón por encima por medio de JavaScript.
 
-Previsualización: https://rawgit.com/urbinapro/lunar-landing-javascript/master/index.html
+En el menú de configuración del móvil, el susodicho ocupa el 100% de la pantalla. En todos los dispositivos, el menú cuando se abre, el juego se pausa. 
+En este menú, disponemos de tres botones. Uno para reniciar el juego, el cuál restablece los valores de basicamente todas las variables que hacen el script del movimiento. 
+Después estaran los botones de "Acerca de..." y de "Instrucciones" que ambos ocultan todo lo referente al menu y colocan el texto encima. 
 
-Tareas a desarrollar:
-* Poner fondo, imagen de la nave y luna. Poner una tierra fijada a la pantalla para que se vea en cualquier tipo de dispositivo. Optimizar las imágenes. Recuerda que se pueden cargar diferentes tamaños y formas de fondos en función del dispositivo usando css.
-* Crear el menú: O bien creamos un menú 100% del espacio disponible (que para el móvil será el 100% de la pantalla) o ponemos un menú horizontal para la versión de escritorio y un menú 100% para el móvil.
-* Al pulsar una tecla o bien hacer click en la pantalla la nave debe cambiar de aspecto a *nave con motor encendido* y debe cambiar la aceleración de g a -g
-* Al pulsar una tecla o bien hacer click en la pantalla debe vaciarse el tanque de combustible de forma proporcional al tiempo que mantenemos pulsado el propulsor. Opcionalmente se pueden disponer de menores o mayores tanques de combustible para aumentar o disminuir la dificultad del juego.
-* Al tocar fondo debe mirarse si la velocidad de impacto es inferior a un valor umbral, en caso afirmativo mostrar mensaje de felicitación, en caso negativo explotar la nave. En ambos casos el juego finaliza y puede reiniciarse con la opción del menú *reiniciar*
-* Valores umbrales: 1m/s en modo difícil, 5m/s en modo muy fácil (los modos de dificultad son opcionalmente implementables)
-* Debe haber una página de *How to play* y una página de *About* accesibles desde el menú
+Con respecto al funcionamiento básico del juego, hablamos que los propulsores de la nave se activan por medio de la barra espaciadora o pulsando en la pantalla tátcil, para aquellos dispositivos que la dispongan. A la vez que cambia su aspecto cuando el motor enciende.
 
-Cualquier otra funcionalidad o cambio debe quedar debidamente documentada.
-
-**Este documento, y el proyecto, es susceptible de sufrir modificaciones sin previo aviso**
+La nave al llegar la superficie lunar, dependiendo de la velocidad, se determina si has ganado o perdido, con su animación correspondiente.
